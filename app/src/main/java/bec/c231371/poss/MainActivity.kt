@@ -1,12 +1,12 @@
-package com.example.pointofsalesystem
+package bec.c231371.poss
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.pointofsalesystem._services.NavigationDispatcher
-import com.example.pointofsalesystem.databinding.ActivityMainBinding
+import bec.c231371.poss._services.navigation.NavigationDispatcher
+import bec.c231371.poss.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

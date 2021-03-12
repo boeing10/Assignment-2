@@ -1,7 +1,7 @@
 buildscript {
     ext.kotlin_version = "1.4.31"
     ext.hilt_version = '2.32-alpha'
-    ext.nav_version = '2.3.3'
+    ext.nav_version = '2.3.4'
 
     repositories {
         google()
@@ -16,12 +16,13 @@ buildscript {
     }
 }
 
- allprojects {
-     repositories {
-         google()
-         jcenter()
-     }
- }
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

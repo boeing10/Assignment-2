@@ -1,8 +1,8 @@
-package com.example.pointofsalesystem.sales.scan
+package bec.c231371.poss.sales.scan
 
 import androidx.recyclerview.widget.RecyclerView
 import bec.c231371.poss.databinding.ItemProductQuantityBinding
-import com.example.pointofsalesystem.sales._models.ProductWithQuantity
+import bec.c231371.poss.sales._models.ProductWithQuantity
 
 class ProductViewHolder(
     private val binding: ItemProductQuantityBinding,
